@@ -1,0 +1,26 @@
+store rec
+store issuance voucher
+store trans 
+store adjustments
+store requisitions
+
+
+hinder from approval
+
+pending approved reject
+
+foreign and local purchase
+
+
+
+
+new requisition(unit price and if requisition is greater than qty at hand
+
+update approve quantity after stock out
+
+put item name for requisition
+
+close the requisition approval window when done
+
+ITEMHISTORY NOT WORKING COS OF DUPLICATES
+

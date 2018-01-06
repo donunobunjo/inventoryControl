@@ -1,0 +1,580 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+inventoryControl
+</name>
+</assembly>
+<members>
+<member name="T:inventoryControl.iGontrol.ClassificationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.BrandDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.WareHouseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.SupplierDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ItemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.UserFunctions1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.FunctionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.UserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.UserFunctionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.DepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.RequisitionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.RequisitionSummaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ApprovedRequisitionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ViewApprovedRequisitionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ItemMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ApprvForIssueUpdateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.checkApprovedQtyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.StockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.JobCardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.checkCostDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.check_BalanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.check_Balance1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.VendorHistoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ItemHistoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.AcctCodesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ClassificationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.BrandRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.WareHouseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.SupplierRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ItemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.UserFunctions1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.FunctionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.UserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.UserFunctionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.DepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.RequisitionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.RequisitionSummaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ApprovedRequisitionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ViewApprovedRequisitionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ItemMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ApprvForIssueUpdateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.checkApprovedQtyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.StockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.JobCardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.checkCostRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.check_BalanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.check_Balance1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.VendorHistoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ItemHistoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.AcctCodesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ClassificationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.BrandRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.WareHouseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.SupplierRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ItemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.UserFunctions1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.FunctionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.UserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.UserFunctionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.DepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.RequisitionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.RequisitionSummaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ApprovedRequisitionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ViewApprovedRequisitionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ItemMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ApprvForIssueUpdateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.checkApprovedQtyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.StockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.JobCardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.checkCostRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.check_BalanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.check_Balance1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.VendorHistoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.ItemHistoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol.AcctCodesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:inventoryControl.iGontrol">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.ClassificationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.BrandTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.WareHouseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.SupplierTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.ItemTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.UserFunctions1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.FunctionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.UserTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.UserFunctionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.DepartmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.RequisitionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.RequisitionSummaryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.ApprovedRequisitionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.ViewApprovedRequisitionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.ItemMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.ApprvForIssueUpdateTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.checkApprovedQtyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.StockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.JobCardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.checkCostTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.check_BalanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.check_Balance1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.VendorHistoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.ItemHistoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.AcctCodesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:inventoryControl.iGontrolTableAdapters.TableAdapterManager.UpdateUpdatedRows(inventoryControl.iGontrol,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:inventoryControl.iGontrolTableAdapters.TableAdapterManager.UpdateInsertedRows(inventoryControl.iGontrol,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:inventoryControl.iGontrolTableAdapters.TableAdapterManager.UpdateDeletedRows(inventoryControl.iGontrol,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:inventoryControl.iGontrolTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:inventoryControl.iGontrolTableAdapters.TableAdapterManager.UpdateAll(inventoryControl.iGontrol)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:inventoryControl.iGontrolTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.addtogrid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.adjustments">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.approvals">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.brand">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.calculator">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.calculatormain">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.changepassword11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.changepasswordmain">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.changeroles1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.close">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.dept">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.employee6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.issuance">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.issuance1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.ItemHistory">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.items6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.jobCardHistory">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.jobCards">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.location">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.manageUsersMain">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.purchaseOrder6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.reciepts">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.removefromgrid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.SaveandAdd">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.stockBalances">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.transfers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.vendorHistory">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:inventoryControl.My.Resources.Resources.warehouses">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:inventoryControl.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

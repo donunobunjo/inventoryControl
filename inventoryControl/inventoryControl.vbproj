@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FDEC04C5-D546-46D0-8BA6-DFC906941555}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>inventoryControl.My.MyApplication</StartupObject>
+    <RootNamespace>inventoryControl</RootNamespace>
+    <AssemblyName>inventoryControl</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Aduwu\Desktop\IC\pack\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>inventoryControl.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>inventoryControl.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>toicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>91BDB5E1FBB39B228F67B4B0D96B4980608A6ABA</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>inventoryControl_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.Ribbon35">
+      <HintPath>..\..\..\Portfolio\SAA Evolution\Binaries\System.Windows.Forms.Ribbon35.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApproveRequisition.Designer.vb">
+      <DependentUpon>ApproveRequisition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveRequisition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApproveRequisitionDetails.Designer.vb">
+      <DependentUpon>ApproveRequisitionDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveRequisitionDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignFuctionsToUser.Designer.vb">
+      <DependentUpon>AssignFuctionsToUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AssignFuctionsToUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CahngeNewUserPassword.designer.vb">
+      <DependentUpon>CahngeNewUserPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CahngeNewUserPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CahngePassword.designer.vb">
+      <DependentUpon>CahngePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CahngePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CentralVendowsReciept.Designer.vb">
+      <DependentUpon>CentralVendowsReciept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CentralVendowsReciept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeUserFunctions.Designer.vb">
+      <DependentUpon>ChangeUserFunctions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeUserFunctions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CentralIssuance.Designer.vb">
+      <DependentUpon>CentralIssuance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CentralIssuance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpeningBal.Designer.vb">
+      <DependentUpon>OpeningBal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpeningBal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewAcctCode.Designer.vb">
+      <DependentUpon>NewAcctCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewAcctCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemHistory.Designer.vb">
+      <DependentUpon>ItemHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="locationIssuance.Designer.vb">
+      <DependentUpon>locationIssuance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="locationIssuance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocationTransfers.Designer.vb">
+      <DependentUpon>LocationTransfers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LocationTransfers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewJobCardvb.Designer.vb">
+      <DependentUpon>NewJobCardvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewJobCardvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stockbalances.Designer.vb">
+      <DependentUpon>stockbalances.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stockbalances.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendor History.Designer.vb">
+      <DependentUpon>Vendor History.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor History.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAcctCodes.Designer.vb">
+      <DependentUpon>ViewAcctCodes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAcctCodes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDepartments.Designer.vb">
+      <DependentUpon>ViewDepartments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDepartments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewJobCardsvb.Designer.vb">
+      <DependentUpon>ViewJobCardsvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewJobCardsvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPartialRequisition.Designer.vb">
+      <DependentUpon>ViewPartialRequisition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPartialRequisition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewRejectedRequisition.Designer.vb">
+      <DependentUpon>ViewRejectedRequisition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRejectedRequisition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iGontrol.vb">
+      <DependentUpon>iGontrol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NewDepartment.Designer.vb">
+      <DependentUpon>NewDepartment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewDepartment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageUsers.designer.vb">
+      <DependentUpon>ManageUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewItem.Designer.vb">
+      <DependentUpon>NewItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewRecieptvb.Designer.vb">
+      <DependentUpon>NewRecieptvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewRecieptvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewRequisition.Designer.vb">
+      <DependentUpon>NewRequisition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewRequisition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewSupplier.Designer.vb">
+      <DependentUpon>NewSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewUser.Designer.vb">
+      <DependentUpon>NewUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewWarehouse.Designer.vb">
+      <DependentUpon>NewWarehouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewWarehouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewBrand.Designer.vb">
+      <DependentUpon>NewBrand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewBrand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iGontrol.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iGontrol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mdi.Designer.vb">
+      <DependentUpon>mdi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mdi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NewClassification.Designer.vb">
+      <DependentUpon>NewClassification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewClassification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewApprovedRequisition.Designer.vb">
+      <DependentUpon>ViewApprovedRequisition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewApprovedRequisition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewBrands.Designer.vb">
+      <DependentUpon>ViewBrands.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewBrands.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewClassifications.Designer.vb">
+      <DependentUpon>ViewClassifications.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewClassifications.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewSuppliers.Designer.vb">
+      <DependentUpon>ViewSuppliers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSuppliers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewWarehouse.Designer.vb">
+      <DependentUpon>ViewWarehouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewWarehouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YiewItems.Designer.vb">
+      <DependentUpon>YiewItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YiewItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ApproveRequisition.resx">
+      <DependentUpon>ApproveRequisition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApproveRequisitionDetails.resx">
+      <DependentUpon>ApproveRequisitionDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignFuctionsToUser.resx">
+      <DependentUpon>AssignFuctionsToUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CahngeNewUserPassword.resx">
+      <DependentUpon>CahngeNewUserPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CahngePassword.resx">
+      <DependentUpon>CahngePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CentralVendowsReciept.resx">
+      <DependentUpon>CentralVendowsReciept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeUserFunctions.resx">
+      <DependentUpon>ChangeUserFunctions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CentralIssuance.resx">
+      <DependentUpon>CentralIssuance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpeningBal.resx">
+      <DependentUpon>OpeningBal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewAcctCode.resx">
+      <DependentUpon>NewAcctCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemHistory.rdlc" />
+    <EmbeddedResource Include="ItemHistory.resx">
+      <DependentUpon>ItemHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="locationIssuance.resx">
+      <DependentUpon>locationIssuance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocationTransfers.resx">
+      <DependentUpon>LocationTransfers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewJobCardvb.resx">
+      <DependentUpon>NewJobCardvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockBalances.rdlc" />
+    <EmbeddedResource Include="stockbalances.resx">
+      <DependentUpon>stockbalances.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendor History.resx">
+      <DependentUpon>Vendor History.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VendorHistory.rdlc" />
+    <EmbeddedResource Include="ViewAcctCodes.resx">
+      <DependentUpon>ViewAcctCodes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDepartments.resx">
+      <DependentUpon>ViewDepartments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewJobCardsvb.resx">
+      <DependentUpon>ViewJobCardsvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPartialRequisition.resx">
+      <DependentUpon>ViewPartialRequisition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewRejectedRequisition.resx">
+      <DependentUpon>ViewRejectedRequisition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDepartment.resx">
+      <DependentUpon>NewDepartment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUsers.resx">
+      <DependentUpon>ManageUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewItem.resx">
+      <DependentUpon>NewItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewRecieptvb.resx">
+      <DependentUpon>NewRecieptvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewRequisition.resx">
+      <DependentUpon>NewRequisition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSupplier.resx">
+      <DependentUpon>NewSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUser.resx">
+      <DependentUpon>NewUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewWarehouse.resx">
+      <DependentUpon>NewWarehouse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewBrand.resx">
+      <DependentUpon>NewBrand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdi.resx">
+      <DependentUpon>mdi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewClassification.resx">
+      <DependentUpon>NewClassification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewApprovedRequisition.resx">
+      <DependentUpon>ViewApprovedRequisition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewBrands.resx">
+      <DependentUpon>ViewBrands.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewClassifications.resx">
+      <DependentUpon>ViewClassifications.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSuppliers.resx">
+      <DependentUpon>ViewSuppliers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewWarehouse.resx">
+      <DependentUpon>ViewWarehouse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YiewItems.resx">
+      <DependentUpon>YiewItems.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iGontrol.xsc">
+      <DependentUpon>iGontrol.xsd</DependentUpon>
+    </None>
+    <None Include="iGontrol.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>iGontrol.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="iGontrol.xss">
+      <DependentUpon>iGontrol.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryControl_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\items6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchaseOrder6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\approvals.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\issuance.jpg" />
+    <None Include="Resources\issuance1.jpg" />
+    <None Include="Resources\warehouses.jpg" />
+    <None Include="Resources\adjustments.jpg" />
+    <None Include="Resources\reciepts.jpeg" />
+    <None Include="Resources\calculator.jpg" />
+    <None Include="Resources\changepasswordmain.jpg" />
+    <None Include="Resources\transfers.jpg" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\SaveandAdd.jpg" />
+    <None Include="Resources\save.jpg" />
+    <None Include="Resources\calculatormain.jpg" />
+    <None Include="Resources\AcctCode.png" />
+    <Content Include="Resources\addtogrid.jpeg" />
+    <Content Include="Resources\changepassword1.jpg" />
+    <None Include="Resources\changepassword11.jpg" />
+    <None Include="Resources\changeroles1.png" />
+    <Content Include="Resources\delete.jpg" />
+    <None Include="Resources\delete1.jpg" />
+    <None Include="Resources\manageUsersMain.jpg" />
+    <None Include="Resources\dept.jpeg" />
+    <None Include="Resources\jobCards.jpg" />
+    <None Include="Resources\jobCardHistory.jpg" />
+    <None Include="Resources\ItemHistory.jpg" />
+    <None Include="Resources\openingBalance.jpg" />
+    <Content Include="Resources\removefromgrid.jpeg" />
+    <None Include="Resources\stockBalances.jpg" />
+    <None Include="Resources\vendorHistory.jpg" />
+    <Content Include="toicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
